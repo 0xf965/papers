@@ -7,7 +7,7 @@ The player does not directly control the snake; instead, they create a solver th
 
 The goal is to achieve the highest possible score.
 
----
+
 
 ## Objective
 
@@ -19,7 +19,7 @@ The goal is to achieve the highest possible score.
   * Collides with itself
   * Receives an invalid move or does not respond
 
----
+
 
 ## How the game works
 
@@ -31,7 +31,7 @@ The game progresses in steps. In each step, the following happens:
 4. The state and score are updated
 5. The process repeats
 
----
+
 
 ## What information the solver receives
 
@@ -52,7 +52,7 @@ board_rows = 60
 board_cols = 120
 ```
 
----
+
 
 ## What the solver must return
 
@@ -67,7 +67,7 @@ RIGHT
 
 Only one per turn.
 
----
+
 
 ## Simple example
 
@@ -84,7 +84,7 @@ Interpretation:
 
 The solver must choose the most appropriate move in that context.
 
----
+
 
 ## Scoring
 
@@ -99,7 +99,7 @@ poison_apples = floor(score / 10)
 
 Higher score increases difficulty.
 
----
+
 
 ## Solver constraints
 
@@ -107,7 +107,7 @@ Higher score increases difficulty.
 * It cannot connect to the internet or external services
 * The full solver image (including dependencies) must not exceed 1 GB
 
----
+
 
 ## What makes a good solver
 
@@ -121,7 +121,7 @@ A good solver does not only chase the apple. It must also:
 
 In many cases, going directly toward the apple is not the best decision.
 
----
+
 
 ## Reproducibility
 
@@ -131,7 +131,7 @@ same solver + same seed = same result
 
 This allows fair comparison between solvers.
 
----
+
 
 ## Summary
 
